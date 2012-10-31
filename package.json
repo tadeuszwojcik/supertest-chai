@@ -1,0 +1,23 @@
+{
+    "name": "chai-supertest",
+    "version": "0.0.1",
+    "description": "Super-agent driven library for testing HTTP servers with Chai asserts",
+    "main": "index.js",
+
+    "dependencies": {
+        "superagent": "git://github.com/twojcik/superagent.git#master"
+    },
+
+    "keywords": [
+        "chai-superagent",
+        "request",
+        "tdd",
+        "bdd",
+        "http",
+        "test",
+        "testing",
+        "Chai"
+    ],
+    "author": "Tadeusz Wójcik",
+    "license": "MIT"
+}
