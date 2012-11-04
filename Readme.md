@@ -37,8 +37,9 @@ request(app)
              res.body.should.deep.equal({name: 'tobi'});
          });
 
+var user = request(app).agent();
 
-request(app)
+user
     .get('/questions')
     .end(function (res) {
              res.should.be.html;
