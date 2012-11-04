@@ -21,5 +21,5 @@ module.exports.request = function (app) {
     return request;
 };
 
-module.exports.chaiAsserts = require('./lib/asserts');
+module.exports.httpAsserts = require('./lib/asserts');
 
