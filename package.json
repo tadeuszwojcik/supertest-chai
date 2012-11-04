@@ -1,6 +1,6 @@
 {
     "name": "chai-supertest",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Super-agent driven library for testing HTTP servers with Chai asserts",
     "main": "index.js",
 
