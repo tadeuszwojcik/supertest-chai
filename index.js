@@ -14,8 +14,10 @@ module.exports.request = function (app) {
     var host = protocol + '://127.0.0.1:' + portno;
 
     request.Request = function (method, url) {
+        var newRequest =new Request(method, host + url);
+        newRequest.redirects(0);
 
-        return new Request(method, host + url);
+        return newRequest;
     }
 
     return request;
