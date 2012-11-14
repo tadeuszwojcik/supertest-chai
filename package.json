@@ -4,6 +4,7 @@
     "description": "Super-agent driven library for testing HTTP servers with Chai asserts",
     "main": "index.js",
 
+
     "dependencies": {
         "superagent": "git://github.com/codefather/superagent.git#master"
     },
