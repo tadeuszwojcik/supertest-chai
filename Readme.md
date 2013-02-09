@@ -3,6 +3,8 @@
   HTTP assertions made easy via [super-agent](http://github.com/visionmedia/superagent) and
   [chai](https://github.com/chaijs/chai)
 
+  Addresses problem with persisting cookies between requests (issues: https://github.com/visionmedia/supertest/issues/26 and https://github.com/visionmedia/supertest/issues/46).
+
 
 
 ## Example
@@ -37,6 +39,7 @@ request(app)
              res.body.should.deep.equal({name: 'tobi'});
          });
 
+// Access to superagent's agent, making requests using 'user' persists cookies ascross them
 var user = request(app).agent();
 
 user
