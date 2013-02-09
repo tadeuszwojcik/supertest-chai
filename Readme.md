@@ -1,4 +1,4 @@
-# chai-supertest
+# supertest-chai
 
   HTTP assertions made easy via [super-agent](http://github.com/visionmedia/superagent) and
   [chai](https://github.com/chaijs/chai)
@@ -12,11 +12,11 @@
 
 
 ```js
-var chaiSupertest = require('chai-supertest');
-var request = chaiSupertest.request;
+var supertestChai = require('supertest-chai');
+var request = supertestChai.request;
 var chai = require("chai");
 chai.should();
-chai.use(chaiSupertest.httpAsserts);
+chai.use(supertestChai.httpAsserts);
 
 var express = require('express');
 
