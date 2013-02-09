@@ -8,9 +8,9 @@
     },
     "repository":{
       "type":"git",
-      "url":"git://github.com/codefather/chai-supertest.git"
+      "url":"git://github.com/codefather/supertest-chai.git"
     },
-    "homepage":"https://github.com/codefather/chai-supertest",
+    "homepage":"https://github.com/codefather/supertest-chai",
     "keywords": [
         "chai-superagent",
         "request",
