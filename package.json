@@ -1,5 +1,5 @@
 {
-    "name": "chai-supertest",
+    "name": "supertest-chai",
     "version": "0.0.7",
     "description": "Super-agent driven library for testing HTTP servers with Chai asserts",
     "main": "index.js",
