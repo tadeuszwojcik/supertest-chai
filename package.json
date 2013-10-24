@@ -1,16 +1,16 @@
 {
     "name": "supertest-chai",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Super-agent driven library for testing HTTP servers with Chai asserts",
     "main": "index.js",
     "dependencies": {
-        "superagent": "git://github.com/codefather/superagent.git#master"
+        "superagent": "git://github.com/tadeuszwojcik/superagent.git#master"
     },
     "repository":{
       "type":"git",
-      "url":"git://github.com/codefather/supertest-chai.git"
+      "url":"git://github.com/tadeuszwojcik/supertest-chai.git"
     },
-    "homepage":"https://github.com/codefather/supertest-chai",
+    "homepage":"https://github.com/tadeuszwojcik/supertest-chai",
     "keywords": [
         "chai-superagent",
         "request",
@@ -21,6 +21,6 @@
         "testing",
         "Chai"
     ],
-    "author": "Tadeusz Wójcik <tadeusz@codefather.io>",
+    "author": "Tadeusz Wójcik <tadeuszwojcik@gmail.com>",
     "license": "MIT"
 }
